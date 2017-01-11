@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>output</title>
+</head>
+<body>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur beatae consectetur consequatur dignissimos earum, facilis fuga, id illum laudantium numquam praesentium quisquam quo quod quos ratione sapiente, similique veritatis voluptatum.</p>
+
+<p id="secondpara"></p>
+<button onclick="cli()">click</button>
+</body>
+<script>
+    alert("hai"); //output in browser window
+
+    console.log("hello console") // display message in console used for debugging
+    function cli(){
+        document.write("5+6"); // delete all html element in dom
+    }
+
+    document.getElementById("secondpara").innerHTML="second para";
+</script>
+</html>
